@@ -57,7 +57,7 @@ function Bank() {
   const hanlClickEditd = (e) => {
     const bankId = e.target.id;
     setBankId(bankId);
-    const foundBank = banks.find(e => e.bank_id == bankId);
+    const foundBank = banks.find(e => e.bank_id === bankId);
     const bankName = document.querySelector('.bank');
     const bankCredit = document.getElementById('bank-credit');
     const bankDuration = document.getElementById('mortgage-duration');
