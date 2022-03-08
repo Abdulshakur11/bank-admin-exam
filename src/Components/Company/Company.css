@@ -1,0 +1,45 @@
+.table-wrapper {
+  width: 100%;
+  max-width: 420px;
+  height: 400px;
+  overflow: auto;
+}
+
+.com-table {
+  color: #fff;
+  box-shadow: 3px 3px 8px rgb(100, 98, 98);
+}
+
+.company-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.wrapper {
+  background-color: rgb(20, 159, 194);
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #fff;
+  height: 430px;
+  overflow: auto;
+  box-shadow: 5px 5px 25px rgb(128, 127, 127);
+}
+
+
+.form-wrapper {
+  width: 100%;
+  max-width: 350px;
+  margin-top: 15px;
+}
+
+.form-wrapper span {
+  display: block;
+  margin-top: 15px;
+}
+
+.form-wrapper button {
+  margin-top: 15px;
+}
+

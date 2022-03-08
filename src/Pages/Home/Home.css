@@ -1,0 +1,37 @@
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(13, 95, 248);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.link {
+  display: inline-block;
+  padding-bottom: 13px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: larger;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
+
+} 
+
+.link:hover {
+  color: rgba(56, 56, 56, 0.747);
+}
+
+.nested-link__link-active {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+h1{
+  margin-top: 20px;
+}

@@ -1,0 +1,48 @@
+.rooms-table-wrapper {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: auto;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.rooms {
+  padding-top: 0;
+}
+
+.room-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.room-form button {
+  margin-top: 15px;
+} 
+
+
+.room-form label {
+  margin-top: 10px;
+}
+
+.t-row {
+  position: relative;
+  height: 50px;
+}
+
+.house-delete-btn {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+.offcan {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #333;
+}

@@ -1,0 +1,10 @@
+.complex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.complex-form input {
+  display: block;
+  margin-bottom: 15px;
+}
